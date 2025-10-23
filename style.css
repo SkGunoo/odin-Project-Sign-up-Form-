@@ -38,3 +38,49 @@
     font-weight: 100;
     font-style: normal;
 }
+
+body{
+
+    margin: 0;
+    padding: 0;
+}
+.form-body{
+    display: flex;
+}
+
+.image-banner-section{
+
+    box-sizing: border-box;
+    width: 40vw;
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.form-section{
+    /* width: 70vw; */
+    box-sizing: border-box;
+    flex-grow: 1;
+    border: 1px solid rgba(104, 219, 46, 0.753);
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-section{
+
+    flex-grow: 1;
+    background-color: yellow;
+
+}
+
+.input-section{
+
+    flex-grow: 1 ;
+    background-color: aqua;
+}
+
+.button-section{
+
+    flex-grow: 1;
+    background-color: gray;
+}
