@@ -1,0 +1,40 @@
+ /* A font by Jos Buivenga (exljbris) -> www.exljbris.com */ 
+
+@font-face {
+    font-family: "fontin";
+    src: url('./fonts/Fontin-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fontin";
+    src: url('./fonts/Fontin-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fontin";
+    src: url('./fonts/Fontin-SmallCaps.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+.bold{
+    font-family: 'fontin';
+    font-weight: 700;
+    font-style: normal;
+}
+
+.regular{
+    font-family: 'fontin';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.small{
+    font-family: 'fontin';
+    font-weight: 100;
+    font-style: normal;
+}
