@@ -21,29 +21,13 @@
     font-style: normal;
 }
 
-.bold{
-    font-family: 'fontin';
-    font-weight: 700;
-    font-style: normal;
-}
-
-.regular{
-    font-family: 'fontin';
-    font-weight: 400;
-    font-style: normal;
-}
-
-.small{
-    font-family: 'fontin';
-    font-weight: 100;
-    font-style: normal;
-}
 
 body{
 
     margin: 0;
     padding: 0;
 }
+
 .form-body{
     display: flex;
 }
@@ -53,8 +37,57 @@ body{
     box-sizing: border-box;
     width: 40vw;
     height: 100vh;
-    border: 1px solid red;
+
+    background-image: url('./images/main_image.png');
+    background-size: contain;
+
+    /* need this for to position .logo-banner */
+    position: relative;
 }
+
+.logo-banner{
+    /* need this to position the banner */
+    position: absolute;
+
+    /* propertie for the size of the banner */
+    top: 20%;
+    width: inherit;
+    height: 20%;
+
+   /* banner colour & shadow properties */
+    background-color: rgba(142, 74, 26, 0.845);
+    border: 2px solid whitesmoke;
+    border-left: none;
+    border-right: none;
+    box-shadow: inset 0 0 10px rgb(33, 33, 33);
+
+    /* makes aligning children element easier */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    
+}
+
+.logo-image{
+    background-image: url('./images/exile.jpeg');
+    background-size: contain;
+    border-radius: 4em;
+    opacity: 1;
+    height: 80%;
+    aspect-ratio: 1/1;
+}
+
+.logo-text{
+
+    font-family: 'fontin';
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+}
+
 
 .form-section{
     /* width: 70vw; */
