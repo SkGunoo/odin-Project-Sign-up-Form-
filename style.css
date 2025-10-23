@@ -97,6 +97,7 @@ body{
     
     display: flex;
     flex-direction: column;
+
 }
 
 .quote-section{
@@ -110,7 +111,7 @@ body{
 
 p.quotes{
 
-    max-width: 55ch;
+    max-width: 50ch;
     margin-top: 8%;
     margin-left: 3rem;
     margin-bottom: 1rem;
@@ -136,8 +137,58 @@ p.quotes-end{
 
     flex: none;
     height: 35%;
-     background-color: rgb(225, 200, 154);
+    background-color: rgb(143, 98, 50);
+
 }
+
+p.input-quote{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-family: 'fontin';
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(224, 130, 80);
+}
+
+.input-row{
+    display: flex;
+    gap: 10%;
+    margin-left: 5%;
+    margin-bottom: 1.5%;
+}
+
+label{
+    font-family: 'fontin';
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(255, 188, 149);
+}
+
+.input{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+input{
+    appearance: none;
+    width: 90%;
+    height: 20px;
+    background-color: rgb(79, 51, 21);
+
+    font-family: 'fontin';
+    font-size: inherit;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(255, 188, 149);
+
+
+
+}
+
+
 
 .button-section{
 
