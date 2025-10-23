@@ -113,7 +113,7 @@ p.quotes{
 
     max-width: 50ch;
     margin-top: 8%;
-    margin-left: 3rem;
+    margin-left: 5%;
     margin-bottom: 1rem;
     font-size: 20px;
     font-family: 'fontin';
@@ -125,7 +125,7 @@ p.quotes{
 
 p.quotes-end{
     font-size: 20px;
-    margin-left: 3rem;
+    margin-left: 5%;
     font-family: 'fontin';
     font-weight: 900;
     font-style: normal;
@@ -137,7 +137,7 @@ p.quotes-end{
 
     flex: none;
     height: 35%;
-    background-color: rgb(143, 98, 50);
+    background-color: rgb(123, 84, 41);
 
 }
 
@@ -184,15 +184,54 @@ input{
     font-style: normal;
     color: rgb(255, 188, 149);
 
+}
 
+button{
+
+    appearance: none;
+    border: none;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #783E16;
+
+    font-family: 'fontin';
+    font-size: inherit;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(255, 188, 149);
+}
+
+form{
+    position: relative;
+}
+
+.button-container{
+    margin-left: 5%;
+    top: 120%;
+    position: absolute;
+}
+
+
+.button-quotes{
+    font-family: 'fontin';
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(224, 130, 80);
 
 }
 
 
-
-.button-section{
+.bottom-section{
 
     flex: none;
     height: 30%;
-    background-color: gray;
+    background-color: rgb(79, 51, 21);
+}
+
+a{
+    text-decoration: none;
+        color: rgb(229, 159, 122);
+
 }
