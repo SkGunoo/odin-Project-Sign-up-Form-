@@ -145,6 +145,7 @@ p.input-quote{
     font-size: 20px;
     margin-left: 5%;
     margin-bottom: 2%;
+    margin-top: 10px;
     font-family: 'fontin';
     font-weight: 900;
     font-style: normal;
@@ -170,13 +171,16 @@ label{
     display: flex;
     flex-direction: column;
     gap: 5%;
+    position: relative;
 }
 
 input{
     appearance: none;
-    width: 90%;
-    height: 20px;
+    border: none;
+    width: 100%;
+    height: 25px;
     background-color: rgb(79, 51, 21);
+    border: 2px solid rgb(53, 53, 61);
 
     font-family: 'fontin';
     font-size: inherit;
@@ -185,6 +189,36 @@ input{
     color: rgb(255, 188, 149);
 
 }
+
+
+
+input:required{
+
+  border: 2px solid rgb(192, 56, 46);
+  outline: none; 
+
+}
+
+input:focus {
+
+  border: 2px solid rgb(192, 126, 46);
+  outline: none; 
+}
+
+input:valid:not(:placeholder-shown){
+  border: 2px solid rgb(48, 118, 7);
+  outline: none; 
+}
+
+.input:has(input:valid:not(:placeholder-shown))::after{
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  content: '⚔️';
+  /* color: green; */
+}
+
+
 
 button{
 
